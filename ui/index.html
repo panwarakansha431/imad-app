@@ -1,29 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-</script>
-<script>
-$(document).ready(function(){
-$("#1").click(function(){
-$(this).hide();
-});
-});
-$(document).ready(function(){
-$("h1").dblclick(function(){
-alert("Double clicked");
-});
-});
-$(document).ready(function(){
-$("input").keypress(function(){
-$(this).css("background-color","pink");
-});
-});
-</script>
-</head>
-<body>
-<h1>Double click to get alert message</h1>
-<p id="1"> Click me!!!</p>
-TEXT:<input type="text">
-</body>
+    <head>
+        <link href="/ui/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="center">
+            <img src="/ui/madi.png" class="img-medium"/>
+        </div>
+        <br>
+        <div class="center text-big bold">
+            Hi! I am your webapp.
+        </div>
+        <script type="text/javascript" src="/ui/main.js">
+        </script>
+    </body>
 </html>
